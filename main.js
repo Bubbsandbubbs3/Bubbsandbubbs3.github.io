@@ -3,9 +3,7 @@ var ShowHistory = false;
 var Function = function () {
        
        var Input, Output;
-       //get if Joe is fat from the HTML page
        Input = document.getElementById('MyInput').value;
-       
        
         if (Input.indexOf('Hi') >= 0){
             Output = "Hello.";
@@ -451,6 +449,33 @@ var Function = function () {
        if (Input.indexOf('Imagine Dragons') >= 0){
             Output = "YAAAAASSS";     
        }
+       if (Input.indexOf('lol') >= 0){
+            Output = "LOL.";     
+       }
+       if (Input.indexOf('LOL') >= 0){
+            Output = "lol.";     
+       }
+       if (Input.indexOf('yas') >= 0){
+            Output = "nas";     
+       }
+       if (Input.indexOf('nas') >= 0){
+            Output = "yas";     
+       }
+       if (Input.indexOf('Yas') >= 0){
+            Output = "Nas";     
+       }
+       if (Input.indexOf('Nas') >= 0){
+            Output = "Yas";     
+       }
+       if (Input.indexOf('YAS') >= 0){
+            Output = "Nas.";     
+       }
+       if (Input.indexOf('NAS') >= 0){
+            Output = "Yas";     
+       }
+
+
+
 
 
 
@@ -458,7 +483,6 @@ var Function = function () {
             Output = "No comprendo.";
         }
         
-    
         if(ShowHistory == true){
             document.getElementById('Output').innerHTML = document.getElementById('Output').innerHTML + " " + Output;
         }
