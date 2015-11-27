@@ -473,8 +473,24 @@ var Function = function () {
        if (Input.indexOf('NAS') >= 0){
             Output = "Yas";     
        }
-
-
+       if (Input.indexOf('weird') >= 0){
+            Output = "People are strange";     
+       }
+       if (Input.indexOf('strange') >= 0){
+            Output = "Faces look ugly when you're alone";     
+       }
+       if (Input.indexOf('rock') >= 0){
+            Output = "rock and roll";     
+       }
+       if (Input.indexOf('band') >= 0){
+            Output = "Imagine dragons";     
+       }
+       if (Input.indexOf(' not ') >= 0){
+            Output = "Is that so?";     
+       }
+       if (Input.indexOf('homo') >= 0){
+            Output = "No homo.";     
+       }
 
 
 
