@@ -144,10 +144,10 @@ var Function = function () {
                 Output = "Good for you, Bob.";
             }
         }
-        if (Input.indexOf('out') >= 0){
+        if (Input.indexOf(' out ') >= 0){
             Output = "In.";
         }
-        if (Input.indexOf('in') >= 0){
+        if (Input.indexOf(' in ') >= 0){
             Output = "Out.";
         }
         if (Input.indexOf('anime') >= 0){
