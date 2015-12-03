@@ -491,7 +491,13 @@ var Function = function () {
        if (Input.indexOf('homo') >= 0){
             Output = "No homo.";     
        }
-
+       if (Input.indexOf('offens') >= 0){
+            Output = "I'm offended by your mom.";     
+       }
+       if (Input.indexOf('offend') >= 0){
+            Output = "Oh, fence.";     
+       }
+       
 
 
 
