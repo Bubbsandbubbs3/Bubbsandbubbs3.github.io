@@ -497,8 +497,12 @@ var Function = function () {
        if (Input.indexOf('offend') >= 0){
             Output = "Oh, fence.";     
        }
-       
-
+        if (Input.indexOf('uck') >= 0){
+            Output = "Potty mouth!";     
+       }      
+       if (Input.indexOf('duck') >= 0){
+            Output = "Goose.";     
+       }
 
 
         if(Output == undefined){
